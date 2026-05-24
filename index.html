@@ -50,7 +50,7 @@
   /* HERO */
   .hero {
     min-height: 100vh; display: flex; flex-direction: column; justify-content: center;
-    padding: 8rem 2.5rem 5rem; position: relative; overflow: hidden;
+    padding: 5rem 2.5rem 3rem; position: relative; overflow: hidden;
   }
   .hero-blob {
     position: absolute; width: 650px; height: 650px; border-radius: 50%;
@@ -399,6 +399,7 @@
   <div class="hero-blob"></div>
   <div class="hero-blob2"></div>
   <div class="hero-content">
+    <div class="hero-tag anim anim-1"><div class="hero-dot"></div>Trusted by 3 million+ websites worldwide</div>
     <div class="hero-tag"><div class="hero-dot"></div>Best hosting for small business 2026</div>
     <h1 class="hero-h1">Your business<br>deserves a <em>fast website.</em></h1>
     <p class="hero-sub">Hostinger gives small business owners professional web hosting at a price that makes sense — starting from just $2.99/month. No tech skills required.</p>
@@ -424,12 +425,27 @@
 </section>
 
 <!-- TRUST BAR -->
-<div class="trust-bar">
-  <div class="trust-item"><span class="trust-icon">⚡</span> Lightning-fast NVMe storage</div>
-  <div class="trust-item"><span class="trust-icon">🔒</span> Free SSL on every plan</div>
-  <div class="trust-item"><span class="trust-icon">🌍</span> Datacentres in 17 countries</div>
-  <div class="trust-item"><span class="trust-icon">💬</span> 24/7 live chat support</div>
-  <div class="trust-item"><span class="trust-icon">↩️</span> 30-day money-back guarantee</div>
+<div style="background:linear-gradient(135deg,#091d3e 0%,#0a3a6e 100%);padding:2.5rem 2.5rem;display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap;">
+  <div style="display:flex;align-items:center;gap:1rem;padding:0.75rem 2rem;border-right:1px solid rgba(255,255,255,0.1);">
+    <span style="font-size:1.5rem;">⚡</span>
+    <div><div style="font-size:0.85rem;font-weight:500;color:#fff;">Lightning Fast</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">NVMe SSD servers</div></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:1rem;padding:0.75rem 2rem;border-right:1px solid rgba(255,255,255,0.1);">
+    <span style="font-size:1.5rem;">🔒</span>
+    <div><div style="font-size:0.85rem;font-weight:500;color:#fff;">Free SSL</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">On every single plan</div></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:1rem;padding:0.75rem 2rem;border-right:1px solid rgba(255,255,255,0.1);">
+    <span style="font-size:1.5rem;">🌍</span>
+    <div><div style="font-size:0.85rem;font-weight:500;color:#fff;">17 Countries</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">Global datacentres</div></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:1rem;padding:0.75rem 2rem;border-right:1px solid rgba(255,255,255,0.1);">
+    <span style="font-size:1.5rem;">💬</span>
+    <div><div style="font-size:0.85rem;font-weight:500;color:#fff;">24/7 Support</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">Real humans, live chat</div></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:1rem;padding:0.75rem 2rem;">
+    <span style="font-size:1.5rem;">↩️</span>
+    <div><div style="font-size:0.85rem;font-weight:500;color:#fff;">Money Back</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">30-day guarantee</div></div>
+  </div>
 </div>
 
 <!-- WHY HOSTINGER -->
